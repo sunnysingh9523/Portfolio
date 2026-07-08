@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Glassmorphism</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    // yaha background shapes ka code hai
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    // Yaha navigation bar hai
+    <nav class="glass-nav">
+        <div class="logo">Sunny<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container">
+        <div class="home-content glass-card">
+            <div class="home-text">
+                <h3>Hello, I'm</h3>
+                <h1>Sunny singh</h1>
+                <h3>And I'm a Frontend Developer <span class="typing-text"></span></h3>
+                <p>I am currently pursuing a B.Tech in Computer Science Engineering, and i am passionate about programming and web development. Beyond coding, i also love capturing the beauty of nature.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/sunnysingh23"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sunny-singh-292955416/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/veer_singh_rajput1198?"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="resume.pdf" class="btn-glass">Download Resume <i class="fas fa-download"></i></a>
+            </div>
+            <div class="home-img">
+                <!-- Replace src with your actual photo -->
+                <img src="images/profile.jpg" alt="Profile Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="glass-card about-card">
+            <div class="about-content">
+                <h3>Who am I?</h3>
+                <p>I am a passionate web developer with a knack for creating beautiful, functional websites. I love turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you'll find me exploring new technologies or gaming.</p>
+            </div>
+        </div>
+    </section>
+
+    // yaha skills section hai
+    <section id="skills" class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="glass-card skill-item">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="glass-card skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="glass-card skill-item">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="glass-card skill-item">
+                <i class="fab fa-python"></i>
+                <h3>python</h3>
+            </div>
+            <div class="glass-card skill-item">
+                <i class="fab fa-node"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="glass-card skill-item">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+        </div>
+    </section>
+
+    // yaha projects section hai
+    <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <div class="project-img">
+                    <img src="project1.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Online food ordering & Table booking system</h3>
+                    <p>Developed a responsive restaurant website using HTML, CSS, and JavaScript. Users can select menu items through a dynamic checklist system and place orders directly via WhatsApp integration. The website also includes a table booking feature with a clean and user-friendly interface.</p>
+                    <a href="#" class="btn-small">View Code</a>
+                </div>
+            </div>
+            <div class="glass-card project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Weather Dashboard</h3>
+                    <p>Real-time weather tracking using OpenWeather API.</p>
+                    <a href="#" class="btn-small">View Code</a>
+                </div>
+            </div>
+            <div class="glass-card project-card">
+                <div class="project-img">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Task Manager</h3>
+                    <p>A productivity tool to manage daily tasks efficiently.</p>
+                    <a href="#" class="btn-small">View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    // yaha education section hai
+    <section id="education" class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+            <div class="glass-card timeline-item">
+                <h3>Btech of Computer Science</h3>
+                <span class="date">2022 - 2026</span>
+                <p>Punjab Technical university | Percentage: 7.50%</p>
+            </div>
+            <div class="glass-card timeline-item">
+                <h3>Higher Secondry College</h3>
+                <span class="date">2020 - 2022</span>
+                <p>Uchh Madhyamik School | Percentage: 65%</p>
+            </div>
+            <div class="glass-card timeline-item">
+                <h3>Matriculation (CBSE)</h3>
+                <span class="date">2010 - 2020</span>
+                <p>Delhi Public School | Percentage: 55%</p>
+
+        </div>
+    </section>
+
+    // yaha contact section hai
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="glass-card contact-card">
+            <form>
+                <div class="input-box">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn-glass">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2026 by Sunny Developer | All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
